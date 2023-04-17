@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Фильмы Гая Ричи</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        color: #333;
+        padding: 20px;
+        }
+
+      header, footer {
+	    background-color: #443e8f;
+	    color: #fff;
+        }
+
+      h1 {
+        text-align: center;
+        margin-top: 0;
+      }
+
+      .film {
+        margin-bottom: 20px;
+        padding: 20px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+      }
+      .film {
+        transition: background-color 0.5s ease;
+      }
+
+      .film h2 {
+        margin-top: 0;
+      }
+
+      .film p {
+        margin: 10px 0;
+      }
+
+      .film .year {
+        color: #999;
+      }
+      a {
+        color: #fff9f9;
+        text-decoration: none;
+      }
+      a:hover {
+        color: #0f1ba2;
+      }
+    </style>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+      var films = document.querySelectorAll('.film');
+      for (var i = 0; i < films.length; i++) {
+        films[i].addEventListener('mouseenter', function() {
+          this.style.backgroundColor = '#535676';
+          this.style.color = '#ffffff';
+        });
+        films[i].addEventListener('mouseleave', function() {
+          this.style.backgroundColor = '#fff';
+          this.style.color = '#000000';
+        });
+      }
+    });
+    </script>
+  </head>
+  <body>
+    <header>
+		<h1><a href="main.html">Фильмы Гая Ричи</a></h1>
+	</header>
+
+    <div class="film">
+      <h2>Карты, деньги, два ствола</h2>
+      <p>Два мелких мошенника вступают в сделку с местным гангстером и становятся частью опасного мира подполья Лондона.</p>
+      <p class="year">Год выпуска: 1998</p>
+    </div>
+
+    <div class="film">
+      <h2>Крупица</h2>
+      <p>История о криминальном гении, который организовывает крупную операцию по похищению антикварных статуэток.</p>
+      <p class="year">Год выпуска: 2000</p>
+    </div>
+
+    <div class="film">
+      <h2>Большой куш</h2>
+      <p>Группа мошенников организует сложную операцию по ограблению крупной книжной ярмарки в Лондоне.</p>
+      <p class="year">Год выпуска: 2002</p>
+    </div>
+
+    <div class="film">
+      <h2>Револьвер</h2>
+      <p>Бывший преступник выходит на свободу и начинает подниматься на вершину криминального мира, однако в его планы вмешиваются таинственные противники.</p>
+      <p class="year">Год выпуска: 2005</p>
+    </div>
+
+    <div class="film">
+      <h2>Рок-н-рольщик</h2>
+      <p>Трое бандитов, состоящих в лондонской группировке «Дикая шайка», попадают в весьма неприятное положение. В результате не слишком удачной аферы с недвижимостью они оказываются должны два миллиона человеку, который не привык шутить – авторитету Ленни Коулу.</p>
+      <p class="year">Год выпуска: 2008</p>
+    </div>
+
+    <div class="film">
+        <h2>Шерлок Холмс: Игра теней</h2>
+        <p>Холмс вместе со своим напарником Ватсоном пытаются раскрыть загадочное дело, в которое вовлечен профессор Мориарти.</p>
+        <p class="year">Год выпуска: 2011</p>
+      </div>
+
+      <div class="film">
+        <h2>Иллюзия обмана</h2>
+        <p>Фильм повествует о команде иллюзионистов, которые пытаются совершить крупное ограбление.</p>
+        <p class="year">Год выпуска: 2013</p>
+      </div>
+
+      <div class="film">
+        <h2>Код доступа «Кейптаун</h2>
+        <p>Легендарный агент ЦРУ Фрост владеет секретной информацией. Но он вышел из-под контроля, и теперь его главное правило: «не доверяй никому – тебя предаст каждый».</p>
+        <p class="year">Год выпуска: 2017</p>
+      </div>
+
+      <div class="film">
+        <h2>Джентльмены</h2>
+        <p>Талантливый выпускник Оксфорда, применив свой уникальный ум и невиданную дерзость, придумал нелегальную схему обогащения с использованием поместья обедневшей английской аристократии.</p>
+        <p class="year">Год выпуска: 2019</p>
+      </div>
+
+      <div class="film">
+        <h2>Операция «Фортуна»: Искусство побеждать</h2>
+        <p>Элитный разведчик Орсон Форчун получил новое задание: остановить продажу и распространение смертельного оружия. Но в одиночку ему эту миссию не потянуть. </p>
+        <p class="year">Год выпуска: 2022</p>
+      </div>
+
+</body>
+</html>
